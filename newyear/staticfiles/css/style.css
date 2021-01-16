@@ -1,0 +1,22 @@
+body {
+  background-color: teal;
+  padding: 10%;
+}
+.box {
+  background-color: steelblue;
+  padding: 30px;
+  width: 400px;
+  height: 300px;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 31px 31px 31px 31px;
+  -moz-border-radius: 31px 31px 31px 31px;
+  -webkit-border-radius: 31px 31px 31px 31px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
+  -moz-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
+  box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
+}
+h1 {
+  color: chartreuse;
+}
