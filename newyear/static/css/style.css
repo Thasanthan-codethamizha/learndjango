@@ -1,9 +1,9 @@
 body {
-  background-color: teal;
+  background-color: rgb(21, 24, 24);
   padding: 10%;
 }
 .box {
-  background-color: steelblue;
+  background-color: rgb(21, 24, 24);
   padding: 30px;
   width: 400px;
   height: 300px;
@@ -13,10 +13,12 @@ body {
   -moz-border-radius: 31px 31px 31px 31px;
   -webkit-border-radius: 31px 31px 31px 31px;
   border: 0px solid #000000;
-  -webkit-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
-  -moz-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
-  box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
 }
 h1 {
   color: chartreuse;
+}
+.box:hover {
+  -webkit-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
+  -moz-box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
+  box-shadow: 10px 10px 22px 8px rgba(108, 112, 230, 1);
 }
