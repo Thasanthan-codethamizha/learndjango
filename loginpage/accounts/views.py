@@ -18,3 +18,11 @@ def register(request):
     return render(request, 'registration/register.html', {
         'form': form
     })
+
+
+def LoginView(request):
+    return render(request, "login.html")
+
+
+def profile(request):
+    return render(request, "profile.html")
