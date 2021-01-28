@@ -1,9 +1,11 @@
 from django.shortcuts import render
 
-from . import models
+from .models import Bio
 # Create your views here.
 
 
 def index(request):
-    key = models.Bio.objects.all()
-    return render(request, "index.html")
+    users = Bio.objects.all()
+    return render(request, "index.html", {
+        'users': users,
+    })
