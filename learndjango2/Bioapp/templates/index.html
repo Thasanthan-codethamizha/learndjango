@@ -4,13 +4,17 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Users</title>
     <link rel="stylesheet" href={% static 'css/styles.css' %}>
 </head> 
 <body>
+    <div id="buttons">
+        <a href="add/" id="add_btn">ADD</a>
+    </div>
     <div id="users">
         {% for user in users %}
         <div class="box">
+            <img src="{{MEDIA_URL}}{{user.profile_pic.url}}" height="200px" />
             <p id="name">{{user.name}}</p>
             <p id="age">{{user.age}}</p>
             <p id="email">{{user.email}}</p>
